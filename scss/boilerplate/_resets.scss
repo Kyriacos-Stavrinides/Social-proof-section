@@ -1,0 +1,20 @@
+// Resets
+
+*,*::before,*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    min-height: 100vh;
+}
+
+img, svg {
+    width: 100%;
+    display: block;
+}
+
+p {
+    word-wrap: break-word;
+}
